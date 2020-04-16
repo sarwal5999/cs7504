@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Global Styles */
+:root {
+  --primary-color: #dc3545;
+  --dark-color: #333333;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+.navbar {
+  display: block;
+  text-align: center;
+}
+.info {
+  margin-top: 2rem;
+}
+.bg-navbar {
+  background: #dc3545;
+  color: #f5f5f5;
+}
+.bg-footer {
+  background: #dc3545;
+  color: #f5f5f5;
+}
+.bg-footer a {
+  color: #f5f5f5;
+}
+.bg-footer a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+.space-between {
+  margin: 5rem 0;
+}
+.info p {
+  font-size: medium;
+  font-weight: 600;
+  color: #696969;
+}
+.card-header {
+  color: #696969;
+}
+.astrick {
+  color: red;
+}
+.main {
+  margin: 0.6rem 0 0.5rem 0;
+}
+.errMsg {
+  color: red;
+}
